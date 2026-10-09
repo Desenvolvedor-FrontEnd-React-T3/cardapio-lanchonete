@@ -3,11 +3,16 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import "./App.css";
 import { Card } from "./components/ProductCard";
+import { Header } from "./components/Header";
 
 function App() {
   return (
     <>
-      <h1>Projeto Inicial React com Vite</h1>
+      {/* <h1>Projeto Inicial React com Vite</h1> */}
+      <Header
+        name={"Lanchonete da Praça"}
+        openingHours={"Todos os dias, das 18 às 23 horas"}
+      />
 
       {/* {lista.map((item) => {
         <Card
