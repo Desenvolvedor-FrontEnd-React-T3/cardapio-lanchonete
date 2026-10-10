@@ -20,3 +20,8 @@ body {
   font-size: 14px;
   text-align: center;
 }
+
+.empty {
+  padding: 24px;
+  text-align: center;
+}
